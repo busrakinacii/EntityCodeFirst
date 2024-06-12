@@ -12,5 +12,6 @@ namespace EntityCodeFirst.Entity
         [Key]
         public int KategoriID { get; set; }
         public string KategoriAd { get; set; }
+
     }
 }

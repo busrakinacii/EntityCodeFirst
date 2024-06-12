@@ -82,6 +82,30 @@
     <Compile Include="Migrations\202406111001384_CreateAciklamaColumnInUrunlersTable.Designer.cs">
       <DependentUpon>202406111001384_CreateAciklamaColumnInUrunlersTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406111136080_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs" />
+    <Compile Include="Migrations\202406111136080_RenameMusteriSoyadToMusteriUnvanInMusterisTable.Designer.cs">
+      <DependentUpon>202406111136080_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406111145009_CreateKategoriDetayColumnInKategorisTable.cs" />
+    <Compile Include="Migrations\202406111145009_CreateKategoriDetayColumnInKategorisTable.Designer.cs">
+      <DependentUpon>202406111145009_CreateKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406111148441_RenameKategoriAdToKategoriAdiInKategorisTable.cs" />
+    <Compile Include="Migrations\202406111148441_RenameKategoriAdToKategoriAdiInKategorisTable.Designer.cs">
+      <DependentUpon>202406111148441_RenameKategoriAdToKategoriAdiInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406111152478_KategoriAdiToKategoriAdInKategorisTable.cs" />
+    <Compile Include="Migrations\202406111152478_KategoriAdiToKategoriAdInKategorisTable.Designer.cs">
+      <DependentUpon>202406111152478_KategoriAdiToKategoriAdInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406120842003_DeleteKategoriDetayColumnInKategorisTable.cs" />
+    <Compile Include="Migrations\202406120842003_DeleteKategoriDetayColumnInKategorisTable.Designer.cs">
+      <DependentUpon>202406120842003_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406120852007_DeleteMusterisTable.cs" />
+    <Compile Include="Migrations\202406120852007_DeleteMusterisTable.Designer.cs">
+      <DependentUpon>202406120852007_DeleteMusterisTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,6 +123,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406111001384_CreateAciklamaColumnInUrunlersTable.resx">
       <DependentUpon>202406111001384_CreateAciklamaColumnInUrunlersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406111136080_RenameMusteriSoyadToMusteriUnvanInMusterisTable.resx">
+      <DependentUpon>202406111136080_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406111145009_CreateKategoriDetayColumnInKategorisTable.resx">
+      <DependentUpon>202406111145009_CreateKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406111148441_RenameKategoriAdToKategoriAdiInKategorisTable.resx">
+      <DependentUpon>202406111148441_RenameKategoriAdToKategoriAdiInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406111152478_KategoriAdiToKategoriAdInKategorisTable.resx">
+      <DependentUpon>202406111152478_KategoriAdiToKategoriAdInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406120842003_DeleteKategoriDetayColumnInKategorisTable.resx">
+      <DependentUpon>202406120842003_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406120852007_DeleteMusterisTable.resx">
+      <DependentUpon>202406120852007_DeleteMusterisTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
